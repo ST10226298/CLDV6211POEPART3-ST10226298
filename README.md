@@ -31,7 +31,7 @@ This project was created as part of a **Portfolio of Evidence (PoE)** to demonst
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/EventEaseBookingSystem.git
+   git clone [https://github.com/yourusername/EventEaseBookingSystem.git](https://github.com/ST10226298/CLDV6211POEPART3-ST10226298.git)
 Open in Visual Studio
 
 Open the .sln file in Visual Studio 2022 or newer.
