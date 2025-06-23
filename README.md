@@ -1,53 +1,47 @@
-EventEaseBookingSystem
-Overview
-EventEaseBookingSystem is a web-based application developed using ASP.NET Core MVC, Entity Framework Core, and Azure SQL Database. The system enables users to view venues, create and manage events, and handle bookings efficiently through an intuitive web interface.
+# EventEaseBookingSystem
 
-This project was created as part of a Portfolio of Evidence (PoE) to demonstrate full-stack web development skills, secure authentication with ASP.NET Identity, database CRUD operations, and cloud deployment on Microsoft Azure.
+## Overview
 
-Features
-User authentication and authorization (register, login, and role-based access)
+**EventEaseBookingSystem** is a web-based application developed using **ASP.NET Core MVC**, **Entity Framework Core**, and **Azure SQL Database**. The system enables users to view venues, create and manage events, and handle bookings efficiently through an intuitive web interface.
 
-Venue management (add, edit, delete, list)
+This project was created as part of a **Portfolio of Evidence (PoE)** to demonstrate full-stack web development skills, secure authentication with **ASP.NET Identity**, database CRUD operations, and cloud deployment on **Microsoft Azure**.
 
-Event management linked to venues
+## Features
 
-Booking system with date and availability checks
+- User authentication and authorization (register, login, and role-based access)
+- Venue management (add, edit, delete, list)
+- Event management linked to venues
+- Booking system with date and availability checks
+- Data validation on forms
+- Responsive user interface
+- Deployment to Azure App Service with connected Azure SQL Database
 
-Data validation on forms
+## Technologies Used
 
-Responsive user interface
+- ASP.NET Core MVC
+- Entity Framework Core
+- ASP.NET Identity
+- Azure SQL Database
+- Azure App Service
+- C#
+- HTML5, CSS3, Razor Views
 
-Deployment to Azure App Service with connected Azure SQL Database
+## Installation
 
-Technologies Used
-ASP.NET Core MVC
+1. **Clone the repository**
 
-Entity Framework Core
-
-ASP.NET Identity
-
-Azure SQL Database
-
-Azure App Service
-
-C#
-
-HTML5, CSS3, Razor Views
-
-Installation
-Clone the repository
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/EventEaseBookingSystem.git
+   ```bash
+   git clone https://github.com/yourusername/EventEaseBookingSystem.git
 Open in Visual Studio
+
 Open the .sln file in Visual Studio 2022 or newer.
 
 Configure the database
+
 Update the connection string in appsettings.json to point to your local or Azure SQL Database.
 
 Apply migrations
+
 Run the following in the Package Manager Console:
 
 bash
@@ -55,6 +49,7 @@ Copy
 Edit
 Update-Database
 Run the application
+
 Press F5 or use:
 
 bash
@@ -73,7 +68,6 @@ graphql
 Copy
 Edit
 EventEaseBookingSystem/
-│
 ├── Controllers/          # MVC controllers for Events, Venues, Bookings
 ├── Models/               # Entity Framework models
 ├── Views/                # Razor views for UI
@@ -84,13 +78,13 @@ EventEaseBookingSystem/
 References
 Below are key resources and references used to guide the development of this project:
 
-Microsoft Docs. (2024). ASP.NET Core MVC overview. https://learn.microsoft.com/en-us/aspnet/core/mvc/
+Microsoft Docs. (2024). ASP.NET Core MVC overview.
 
-Microsoft Docs. (2024). ASP.NET Core Identity. https://learn.microsoft.com/en-us/aspnet/core/security/authentication/identity
+Microsoft Docs. (2024). ASP.NET Core Identity.
 
-Microsoft Docs. (2024). Entity Framework Core. https://learn.microsoft.com/en-us/ef/core/
+Microsoft Docs. (2024). Entity Framework Core.
 
-Microsoft Azure. (2024). Host a web app with Azure App Service. https://learn.microsoft.com/en-us/azure/app-service/
+Microsoft Azure. (2024). Host a web app with Azure App Service.
 
 Esposito, D. (2020). Programming ASP.NET Core. Microsoft Press.
 
@@ -100,6 +94,4 @@ License
 This project is part of a Portfolio of Evidence submission and is for educational purposes only.
 
 Author
-Developed by [Your Name]
-
-
+Developed by Kyle Pillay
